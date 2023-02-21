@@ -1,4 +1,5 @@
 ### Ahora le toca al papa, el mas duro
+https://www.youtube.com/watch?v=ZVbN77OwoLA&list=PLyTv82e1M2ifx3zHOrurVDdNUf9UzPxhx&index=12
 1 - Instalar pluggins jenkis:
 SonarQube Scanner
 Quality gates
