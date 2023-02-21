@@ -14,7 +14,7 @@ add nodejs
 
 3 - configuracion sistema
 cambiemos localhost por   myjenkins (my service container)
-agregar sonarQube server http://mysonarqube:9000 (my service container)
+agregar sonarqube server http://mysonarqube:9000 (my service container)
 agregar quality-gate, http://mysonarqube:9000, admin, admin
 
 4 - login http://localhost:9000 (mysonarqube) admin, admin
@@ -32,6 +32,9 @@ http://myjenkins:8080/sonarqube-webhook
 open su terminal y ejecuta todo del install_docker_in_jenkins.sh
 
 
+------------------------------------ FALLE ------------------------------------\
+No pude avanzar mas, estoy seguro que es por tema de que me faltan pluggin de nodejs (sonarjs) en sonarqube
+Si pudiera crear un quality Profiles...hubiera ganado xd
 
 # :whale: DOCKER-PIRATE :whale:
 Some of my Docker projects with multiple tools and technologies. <br>
