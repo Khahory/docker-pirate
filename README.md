@@ -1,3 +1,37 @@
+### Ahora le toca al papa, el mas duro
+1 - Instalar pluggins jenkis:
+SonarQube Scanner
+Quality gates
+nodejs
+
+2 - configuracion global
+add sonar scanner
+    add name
+
+add nodejs
+    add name
+
+3 - configuracion sistema
+cambiemos localhost por   myjenkins (my service container)
+agregar sonarQube server http://mysonarqube:9000 (my service container)
+agregar quality-gate, http://mysonarqube:9000, admin, admin
+
+4 - login http://localhost:9000 (mysonarqube) admin, admin
+En administracion agregar Server base URL http://mysonarqube:9000
+marketplace buscar Plugins javascript e instalarlo (no pude encontrarlo F)
+
+5 - 
+Ir a Sonarqube, administraction, config (flecha), create webhook
+webhook-sonar
+http://myjenkins:8080/sonarqube-webhook
+
+------------------------------------ TODO CONFIGURADO ------------------------------------\
+
+1 - vamos a instalar docker dentro del contenedor de jenkis
+open su terminal y ejecuta todo del install_docker_in_jenkins.sh
+
+
+
 # :whale: DOCKER-PIRATE :whale:
 Some of my Docker projects with multiple tools and technologies. <br>
 This repository covers a general understanding of Docker DevOps practices from development to production. <br>
